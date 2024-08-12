@@ -40,6 +40,8 @@
 
    Once the data is uploaded, the "geometry" field will be of STRING type. Alter your table to add a new column of type GEOGRAPHY. Then, update the table to populate this column with geometry data converted from STRING format.
 
+   > Work in a project with bill info.
+
 ```sql
 -- Add a new column for GEOGRAPHY type
 ALTER TABLE `project_id.dataset_name.table_name` 
